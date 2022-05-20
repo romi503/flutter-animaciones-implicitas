@@ -99,6 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
               ),
               const SizedBox(height: 20,),
+              const Text("AnimatedAlign"),
               AnimatedAlign(
                 alignment: _mostrar5 ? Alignment.centerLeft : Alignment.centerRight,
                 duration: const Duration(seconds: 1),
